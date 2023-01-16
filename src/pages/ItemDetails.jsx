@@ -4,6 +4,8 @@ import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import Skeleton from "../components/UI/Skeleton";
 
+//
+
 const ItemDetails = () => {
   const { itemId } = useParams();
   const [load, setLoad] = useState();
